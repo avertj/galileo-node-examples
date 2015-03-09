@@ -1,0 +1,21 @@
+{
+  "name": "galileo-node-examples",
+  "version": "1.0.0",
+  "description": "Some examples of Node scripts to run on a Galileo board.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avertj/galileo-node-examples.git"
+  },
+  "author": "Julien AVERT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avertj/galileo-node-examples/issues"
+  },
+  "homepage": "https://github.com/avertj/galileo-node-examples",
+  "dependencies": {
+    "cylon": "^0.22.1",
+    "cylon-gpio": "^0.22.0",
+    "cylon-i2c": "^0.20.0",
+    "cylon-intel-iot": "^0.5.0"
+  }
+}
