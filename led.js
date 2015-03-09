@@ -10,13 +10,13 @@ Cylon.robot({
   devices: {
     led: {
       driver: 'led',
-      pin: 13
+      pin: 13,
+      connection: 'galileo'
     }
   },
 
   work: function(my) {
     every((1).second(), function() {
-      console.log('Tick');
       my.led.toggle();
     });
   }
