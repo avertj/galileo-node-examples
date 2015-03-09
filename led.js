@@ -10,8 +10,7 @@ Cylon.robot({
   devices: {
     led: {
       driver: 'led',
-      pin: 13,
-      connection: 'galileo'
+      pin: 3
     }
   },
 
